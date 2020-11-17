@@ -1,2 +1,2 @@
 # covid19-api
-Currently supports Ontario
+Currently supports Ontario and data at a federal level
