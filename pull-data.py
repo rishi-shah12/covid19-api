@@ -18,6 +18,7 @@ def get_covid_canada_data():
     r = requests.get(url, allow_redirects=True)
     open('covid19_data_canada.csv', 'wb').write(r.content)
 
-
-get_covid_ontario_data()
-get_covid_canada_data()
+while True:
+    get_covid_ontario_data()
+    get_covid_canada_data()
+    time.sleep(3600)
